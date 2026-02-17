@@ -1,6 +1,6 @@
 resource "aws_security_group" "web" {
   name        = "allow-all"
-  description = "Allow all inbound/outbound traffic"
+  description = "Allow all inbound/outbound traffic test block"
   vpc_id      = aws_vpc.main.id
 
   ingress {
