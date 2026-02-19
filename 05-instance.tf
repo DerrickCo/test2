@@ -7,6 +7,6 @@ resource "aws_instance" "web" {
   #user_data                   = filebase64("userdata.sh")
 
   tags = {
-    Name = "web-server"
+    Name = "web-server1"
   }
 }
